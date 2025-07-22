@@ -1,0 +1,17 @@
+{
+  "name": "crypto-tictactoe",
+  "version": "1.0.0",
+  "description": "Crypto Tic-Tac-Toe with MON token staking",
+  "scripts": {
+    "install-all": "npm install && cd contracts && npm install && cd ../frontend && npm install",
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "test": "cd contracts && npm test",
+    "deploy": "cd contracts && npx hardhat run scripts/deploy.js --network monad-testnet",
+    "verify": "cd contracts && npx hardhat run scripts/verify.js --network monad-testnet",
+    "clean": "rm -rf node_modules frontend/node_modules contracts/node_modules"
+  },
+  "keywords": ["blockchain", "web3", "gaming", "tic-tac-toe", "monad"],
+  "author": "Your Name",
+  "license": "MIT"
+}
