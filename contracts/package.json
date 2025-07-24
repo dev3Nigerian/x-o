@@ -6,12 +6,13 @@
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",
     "deploy": "npx hardhat run scripts/deploy.js",
+    "deploy:testnet": "npx hardhat run scripts/deploy.js --network monad-testnet",
     "verify": "npx hardhat run scripts/verify.js",
     "node": "npx hardhat node",
     "clean": "npx hardhat clean"
   },
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^3.0.2",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
     "@nomiclabs/hardhat-ethers": "^2.2.3",
     "@nomiclabs/hardhat-etherscan": "^3.1.7",
     "chai": "^4.3.8",

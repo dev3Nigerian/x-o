@@ -204,7 +204,9 @@ contract TicTacToeGame is ReentrancyGuard, Ownable {
     
     function checkWinner(uint256 gameId) internal view returns (address) {
         uint8[9] memory board = games[gameId].board;
-        uint8[8][3] memory winningLines = [
+        
+        // Fixed: Correct array dimensions - [3][8] means 8 arrays of 3 elements each
+        uint8[3][8] memory winningLines = [
             [0,1,2], [3,4,5], [6,7,8],  // rows
             [0,3,6], [1,4,7], [2,5,8],  // columns
             [0,4,8], [2,4,6]            // diagonals

@@ -1,6 +1,6 @@
 // frontend/src/hooks/useGame.js
 import { useState, useEffect, useCallback } from "react";
-import { useContract } from "./useContract";
+import { useContract } from "./useContracts";
 import { useWallet } from "./useWallet";
 
 export const useGame = () => {

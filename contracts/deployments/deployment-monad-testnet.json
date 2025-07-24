@@ -1,0 +1,9 @@
+{
+  "network": "monad-testnet",
+  "chainId": 10143,
+  "deployer": "0x0cA5F2D9E6ED089f34367B98Bd16B8f902f9Bf96",
+  "MONToken": "0xeAD4Fb56B4b8bf45618608DaCB915639276dCcaf",
+  "TicTacToeGame": "0x860E7753b8b3280CCEcA7281dFe18314462450A0",
+  "gasPrice": "62.4 gwei",
+  "timestamp": "2025-07-22T22:45:51.099Z"
+}
